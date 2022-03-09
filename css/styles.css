@@ -67,9 +67,8 @@ button {
   justify-content: space-between;
 }
 /* ==== LOGO ==== */
-.logo h2 {
-  font-size: 28px;
-  color: var(--primary-color);
+.logo img{
+  height: 3rem;
 }
 /* ====  NAV-MENU  ==== */
 .nav_menu_list {
