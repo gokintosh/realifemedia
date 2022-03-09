@@ -353,6 +353,7 @@ footer {
   .featured_info p {
     line-height: 23px;
     font-size: 14px;
+    font-family: "Inter";
   }
   .featured_info span a{
     color: #000;
@@ -411,6 +412,7 @@ footer {
   }
   .featured_info span {
     font-size: 19px;
+    font-family: "Inter";
   }
 
   .featured_info span a{
@@ -430,37 +432,22 @@ footer {
 
 
 ol {
-  max-width: 350px;
-  counter-reset: my-awesome-counter;
-  list-style: none;
-  padding-left: 40px;
+  
+  list-style-type: none;
 }
+ 
 ol li {
-  text-align: left;
-  font-weight: bold;
-  font-size: 1rem;
-  margin: 0 0 2rem 0;
-  counter-increment: my-awesome-counter;
+  background: -webkit-linear-gradient(#000000, #f1561d);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   position: relative;
+  font:  22px/1.5 Verdana, sans-serif;
+  margin-bottom: 20px;
+  font-family: "Inter", Verdana, Geneva, Tahoma, sans-serif;
 }
-ol li::before {
-  content: counter(my-awesome-counter);
-  color: #f1561d;
-  font-size: 1.5rem;
-  font-weight: bold;
-  position: absolute;
-  --size: 32px;
-  left: calc(-1 * var(--size) - 10px);
-  line-height: var(--size);
-  width: var(--size);
-  height: var(--size);
-  top: 0;
-  transform: rotate(-10deg);
-  background: #161c2d;
-  border-radius: 50%;
-  text-align: center;
-  box-shadow: 1px 1px 0 #999;
-}
+ 
+
+ 
 
 
 
