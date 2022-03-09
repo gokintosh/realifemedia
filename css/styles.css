@@ -68,7 +68,8 @@ button {
 }
 /* ==== LOGO ==== */
 .logo img{
-  height: 3rem;
+  height: 3.7rem;
+  padding-top: 15px;
 }
 /* ====  NAV-MENU  ==== */
 .nav_menu_list {
@@ -128,9 +129,9 @@ button {
 
 .sub-heading {
   font-weight: 300;
-  font-size: 27px;
+  font-size: 24px;
   line-height: 33px;
-  text-align: center;
+  text-align: left;
 }
 .main-heading span {
   color: var(--primary-color);
@@ -247,6 +248,8 @@ button {
 .featured_info {
   width: 100%;
   text-align: center;
+  font-family: "Inter", Verdana, Geneva, Tahoma, sans-serif;
+  
 }
 .featured_info span {
   width: 100%;
@@ -254,6 +257,7 @@ button {
   font-size: 21px;
   line-height: 33px;
   color: var(--lg-heading);
+  font-family: "Inter", Verdana, Geneva, Tahoma, sans-serif;
 }
 .featured_info p {
   display: block;
@@ -263,10 +267,12 @@ button {
   color: #334157;
   line-height: 25px;
   font-size: 15.5px;
+  font-family: "Inter", Verdana, Geneva, Tahoma, sans-serif;
 }
 .featured_info span a{
   color: #000;
   text-decoration: none;
+  font-family: "Inter", Verdana, Geneva, Tahoma, sans-serif;
 }
 footer {
   width: 100%;
@@ -337,9 +343,9 @@ footer {
 
   .sub-heading {
     font-weight: 300;
-    font-size: 27px;
+    font-size: 24px;
     line-height: 33px;
-    text-align: center;
+    text-align: left;
   }
   .view_more_btn {
     width: 140px;
@@ -358,6 +364,7 @@ footer {
   .featured_info span a{
     color: #000;
     text-decoration: none;
+    font-family: "Inter", Verdana, Geneva, Tahoma, sans-serif;
   }
 }
 
@@ -384,9 +391,9 @@ footer {
 
   .sub-heading {
     font-weight: 300;
-    font-size: 27px;
+    font-size: 24px;
     line-height: 33px;
-    text-align: center;
+    text-align: left;
   }
   .info-text {
     font-size: 16px;
