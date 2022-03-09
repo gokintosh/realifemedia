@@ -131,6 +131,7 @@ button {
   font-weight: 300;
   font-size: 27px;
   line-height: 33px;
+  text-align: center;
 }
 .main-heading span {
   color: var(--primary-color);
@@ -334,6 +335,13 @@ footer {
   .main-heading {
     font-size: 35px;
   }
+
+  .sub-heading {
+    font-weight: 300;
+    font-size: 27px;
+    line-height: 33px;
+    text-align: center;
+  }
   .view_more_btn {
     width: 140px;
     height: 55px;
@@ -372,6 +380,13 @@ footer {
     font-size: 32px;
     text-align: center;
     line-height: 40px;
+  }
+
+  .sub-heading {
+    font-weight: 300;
+    font-size: 27px;
+    line-height: 33px;
+    text-align: center;
   }
   .info-text {
     font-size: 16px;
